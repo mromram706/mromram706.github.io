@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <!--#12 Con esta etiqueta tenemos en cuenta la accesibilidad permitiendo el zoom en nuestra página-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5, user-scalable=yes, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="Historiadora, Arte, Programadora">
+    <!--#2 Etiqueta meta description-->
+    <meta name="description" content="Presentacion personal">
+    <meta http-equiv="Content-Language" content="es">
+    <meta http-equiv="Cache-Control" content="no-store"> 
+    <meta http-equiv="refresh" content="5">
+    <meta name="theme-color" content="#a972dd">
+    <!--Para que no puedan poner mi página en un iframe en otras páginas-->
+    <meta http-equiv="Content-Security-Policy" content="frame-ancestors 'none';">
+    <meta http-equiv="X-Frame-Options" content="deny">
+    <!--Que solo se puedan ejecutar scripts de mi página y de youtube-->
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://www.youtube.com https://s.ytimg.com; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; child-src 'self' https://www.youtube.com https://www.youtube-nocookie.com;">
+    <!--Que solo se puedan cargar imágenes de mi propia página-->
+    <meta http-equiv="Content-Security-Policy" content="img-src 'self' ">
+    <!--Desactivar el acceso a la cámara, al micrófono y a la geolocalización-->
+    <meta http-equiv="Feature-Policy" content="geolocation 'none'; camera 'none' microphone ; 'none';">
+
+    <link rel="icon" href="./icon/favicon_general.ico" type="image/x-icon">
+    <link rel="canonical" href="./index.html">
+
+    <!--#1 Título de la página-->
+    <title>Mi presentación</title>
+
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <!--#6 Enlaces internos-->
+            <!--#7 Se han asignado nombres significativos a las anchor text-->
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#presentacion">Presentacion</a></li>
+          <li><a href="#video">Vídeo</a></li>
+          <li><a href="#hobbies">Hobbies</a></li>
+          <li><a href="#estudios">Estudios</a></li>
+          <li><a href="#experiencia">Experiencia</a></li>
+          <li><a href="#sugerencias">Sugerencias</a></li>
+          <li><a href="#redes">Redes sociales</a></li>
+        </ul>
+      </nav>
+
+    <header id="inicio">
+        <!--#3 Etiqueta de encabezado-->
+        <h1>María del Mar Romero Ramos</h1>
+
+        <p>Historiadora del arte y programadora en potencia</p>
+
+        <figure>
+            <img src="./img/noche_estrellada.jpg" alt="Noche estrellada" width="300" height="200">
+            <figcaption>La noche estrellada. Van Gogh</figcaption>
+          </figure>
+
+    </header>
+
+    <div id="presentacion">
+
+        <p>Historiadora del arte y programadora en potencia</p>
+
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/watch?v=CvFH_6DNRCY" frameborder="0"></iframe>
+
+        <ul id="hobbies" type="circle">
+            <li>Música</li>
+            <li>Literatura</li>
+            <li>Viajar</li>
+        </ul>
+
+        <ol id="estudios" type="I">
+            <li>Grado en Historia del Arte</li>
+            <li>Máster en Patrimonio</li>
+            <li>Máster de Profesorado</li>
+            <li>Ciclo formativo de grado superior en Desarrollo Web</li>
+        </ol>
+
+        <dl id="experiencia">
+            <dt>Técnico arqueológico</dt>
+            <dd>
+              Encargado de estudiar y documentar los yacimientos arqueológicos, así como custodiar los restos que después serán restaurados y contribuirán al conocimiento de la historia.
+            </dd>
+          </dl>
+    </div>
+
+    <div id="contacto">
+        <label for="sugerencias">Sugerencias</label><br>
+        <textarea id="sugerencias" name="sugerencias" rows="6" cols="60"></textarea><br><br>
+    </div>
+
+    <footer>
+        <p>Web creada por Mar Romero Ramos</p>
+
+        <p xmlns:cc="http://creativecommons.org/ns#">Licencia de dominio público<a href="http://creativecommons.org/publicdomain/zero/1.0?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC0 1.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" alt="icono" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" alt="icono" src="https://mirrors.creativecommons.org/presskit/icons/zero.svg?ref=chooser-v1"></a></p>
+        <!--#7 Se han asignado nombres significativos a las anchor text-->
+        <a href="https://www.carrefour.es/politica-de-privacidad/mas-info/?ic_source=portal-y-corporativo&ic_medium=footer-links&ic_campaign=%28not+set%29&ic_content=ns">Política de privacidad</a>
+
+        <ul id="redes">
+        <!--#7 Se han asignado nombres significativos a las anchor text-->
+            <li><a href="https://www.instagram.com/">Instagram</a></li>
+            <li><a href="https://github.com/">Github</a></li>
+            <li><a href="https://www.youtube.com/">Youtube</a></li>
+        </ul>
+
+    </footer>
+
+</body>
+</html>
+
+<!--#5 Herramientas para minificar el código HTML
+    -HTMLMinifier
+    -Minify
+    -aspose.app
+    -freecompress.com
+-->
+
+<!--#8 Errores en el HTML
+    Al realizar el análisis de mi html en el W3C validator, 
+    los errores que encuentra son en su mayoría en referencia 
+    a las etiquetas meta
+-->
+
+<!--#13 Herramienta para ver mejoras
+    -Google Insights
+    -Lighthouse
+    -Google Search Console
+-->
