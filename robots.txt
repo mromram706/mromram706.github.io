@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 User-agent: GPTBot
 Disallow: /
-Sitemap: https://github.com/mromram706/mromram706.github.io.git/sitemap.xml
+Sitemap: https://mromram706.github.io/mromram706.github.io.git/sitemap.xml
